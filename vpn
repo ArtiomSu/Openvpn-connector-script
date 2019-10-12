@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SCRIPT="$(realpath $0)"
+SCRIPTPATH="$(dirname $SCRIPT)"
+
+sudo $SCRIPTPATH/vpn_runner.sh $(pass vpn/username@gmail.com)
